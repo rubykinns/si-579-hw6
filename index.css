@@ -1,0 +1,87 @@
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    font-size:16px;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #3877f5;
+    /* text-shadow: 2px 2px 2px #aaa */
+}
+a{
+    color: #73A0F9;
+}
+strong{
+    color: yellowgreen;
+}
+nav {
+    text-align: right;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 30px;
+
+}
+nav ul li :hover{
+    background-color: #d49466;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+}
+nav ul li:last-child {
+    padding-right: 0px;
+}
+#project {
+    background-image: url("asset.png");
+    width: 400px;
+    height: 300px;
+
+}
+#project .summary {
+    background-color:rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    height: 100%;
+    font-size: 3em;
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: relative;
+}
+#project:hover .summary {
+    opacity: 1;
+}
+
+#project .summary .name {
+    position: absolute;
+    bottom: 0;
+
+}
+
+#experience{
+    background-color: #d1d1d1;
+}
+
+#title1{
+    background-color: white;
+}
+#title2{
+    background-color: lightblue;
+}
+.colorchange{
+    color: red;
+}
+
+#time {
+    float: right;
+}
+.copyright {
+    padding: 100px;
+    text-align: center;
+}
